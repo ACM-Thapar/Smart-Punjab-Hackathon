@@ -1,0 +1,11 @@
+.card {
+    background: linear-gradient(145.19deg, #373737 0%, rgba(50, 49, 49, 0.58) 103.88%);
+    color: white;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

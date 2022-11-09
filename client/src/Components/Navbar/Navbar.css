@@ -1,7 +1,8 @@
 .nav-link,
 .nav-btn {
     color: white !important;
-    font-family: 'Mohave', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 1.25rem;
 }
 

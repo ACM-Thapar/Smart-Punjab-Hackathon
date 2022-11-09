@@ -7,6 +7,8 @@ import Tracks from './Components/Tracks/Tracks';
 import Guidelines from './Components/Guidelines/Guidelines';
 import Faqs from './Components/Faqs/Faqs';
 import ContactUs from './Components/ContactUs/ContactUs';
+import About from './Components/About/About';
+import Prizes from './Components/Prizes/Prizes';
 
 function App () {
   return (
@@ -14,7 +16,7 @@ function App () {
       <AnimatedCursor
         innerSize={13}
         outerSize={13}
-        color="57, 1, 123"
+        color="255, 215, 0"
         outerAlpha={0.3}
         innerScale={0.7}
         outerScale={4}
@@ -33,8 +35,10 @@ function App () {
         ]}
       />
       <LandingPage />
+      <About />
       <Timeline />
       <Tracks />
+      <Prizes />
       <Guidelines />
       <Faqs />
       <ContactUs />
