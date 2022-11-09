@@ -37,7 +37,7 @@ function Navbar () {
               </li>
 
               <li className="nav-item">
-                <a href="/" className="btn nav-btn px-3 mx-3">
+                <a href="/" style={{textDecoration:'none',color:'white',marginTop:'3px'}} className="custom-cutout-button">
                   Register
                 </a>
               </li>

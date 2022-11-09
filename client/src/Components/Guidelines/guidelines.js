@@ -1,5 +1,5 @@
 import {React, Fragment} from 'react';
-import './Guidelines.css';
+import './guidelines.css';
 
 function Guidelines () {
   return (

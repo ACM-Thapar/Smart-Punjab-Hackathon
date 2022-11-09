@@ -4,8 +4,8 @@ import './App.css';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import Timeline from './Components/Timeline/Timeline';
 import Tracks from './Components/Tracks/Tracks';
-import Guidelines from './Components/Guidelines/Guidelines';
-import Faqs from './Components/Faqs/Faqs';
+import Guidelines from './Components/Guidelines/guidelines';
+import Faqs from './Components/Guidelines/guidelines';
 import ContactUs from './Components/ContactUs/ContactUs';
 
 function App () {
