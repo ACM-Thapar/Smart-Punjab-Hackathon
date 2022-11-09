@@ -5,8 +5,8 @@ import LandingPage from './Pages/LandingPage/LandingPage';
 import Timeline from './Components/Timeline/Timeline';
 import Tracks from './Components/Tracks/Tracks';
 import Guidelines from './Components/Guidelines/Guidelines';
-import Faqs from './Components/Faqs/Faqs';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Faqs from './Components/Faqs/Faqs';
 import About from './Components/About/About';
 import Prizes from './Components/Prizes/Prizes';
 
