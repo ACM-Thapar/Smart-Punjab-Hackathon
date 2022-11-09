@@ -1,0 +1,50 @@
+.nav-link,
+.nav-btn {
+    color: white !important;
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #CD2A84;
+}
+
+.nav-btn {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%) 1;
+    font-family: 'a Atmospheric', sans-serif;
+    clip-path: polygon(100% 0, 100% 63%, 82% 100%, 0 100%, 0 0);
+}
+
+.nav-link:hover {
+    background: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #CD2A84;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-nav {
+    background: black;
+    padding: 1vw 2vw;
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+}

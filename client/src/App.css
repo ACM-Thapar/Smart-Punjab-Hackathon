@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/a-atmospheric');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%);
 }
