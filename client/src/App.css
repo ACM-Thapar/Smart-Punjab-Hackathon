@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 @import url('https://fonts.cdnfonts.com/css/a-atmospheric');
 
 * {
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 
 .timeline,
 .tracks,
 .guidelines,
 .faqs,
-.contactUs {
+.contactUs,
+.about,
+.prizes {
   background: #1e1e1e;
   height: 100vh;
   width: auto;
