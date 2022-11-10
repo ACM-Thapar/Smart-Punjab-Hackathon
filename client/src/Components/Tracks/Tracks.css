@@ -1,11 +1,91 @@
-.card {
-    background: linear-gradient(145.19deg, #373737 0%, rgba(50, 49, 49, 0.58) 103.88%);
-    color: white;
-    cursor: pointer;
-    font-size: 1.25rem;
+.trackBox {
+    display: grid;
+    height: 82vh !important;
+    width: 70vw;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    gap: 13px;
+
 }
 
-.card-title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+.trackBox div {
+    border-radius: 10px;
+    background: linear-gradient(145.19deg, #373737 0%, rgba(50, 49, 49, 0.58) 103.88%);
+    color: white;
+    font-family: 'a Atmospheric', sans-serif;
+}
+
+#item-0 {
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trackBox img {
+    height: 15vh;
+}
+
+#item-1 {
+
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#item-2 {
+
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#item-3 {
+
+    grid-row-start: 1;
+    grid-column-start: 5;
+
+    grid-row-end: 3;
+    grid-column-end: 6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#item-4 {
+
+    grid-row-start: 3;
+    grid-column-start: 2;
+
+    grid-row-end: 4;
+    grid-column-end: 6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
