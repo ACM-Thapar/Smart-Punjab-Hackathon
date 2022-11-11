@@ -9,6 +9,8 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Faqs from './Components/Faqs/Faqs';
 import About from './Components/About/About';
 import Prizes from './Components/Prizes/Prizes';
+import Sponsors from './Components/Sponsors/Sponsors';
+import ScrollButton from './Components/ScrollButton/Scrollbutton';
 
 function App () {
   return (
@@ -40,8 +42,10 @@ function App () {
       <Tracks />
       <Prizes />
       <Guidelines />
+      <Sponsors />
       <Faqs />
       <ContactUs />
+      <ScrollButton />
     </Fragment>
   );
 }
