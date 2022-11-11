@@ -11,7 +11,12 @@ function Timeline () {
           <Fade>
             <h1>Timeline</h1>
 
-            <img src={TimelineImg} alt="Timeline" className="img-fluid my-5" />
+            <img
+              src={TimelineImg}
+              alt="Timeline"
+              className="img-fluid my-5"
+              draggable="false"
+            />
           </Fade>
         </div>
       </section>
