@@ -11,9 +11,9 @@
 .tracks,
 .guidelines,
 .faqs,
-.contactUs,
 .about,
-.prizes {
+.prizes,
+.sponsors {
   background: #1e1e1e;
   height: 100vh;
   width: auto;
@@ -37,4 +37,22 @@ h1 {
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%);
+}
+
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .tracks {}
+
+  .trackBox {
+    overflow: hidden;
+  }
+
+  .guidelines h1,
+  .sponsors h1 {
+    font-size: 2.5rem !important;
+  }
 }
