@@ -1,9 +1,9 @@
 .nav-link,
 .nav-btn {
-    color: white !important;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.25rem;
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .nav-link {
@@ -13,48 +13,48 @@
 }
 
 .nav-btn {
-    border-width: 4px;
-    border-style: solid;
-    border-image: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%) 1;
-    font-family: 'a Atmospheric', sans-serif;
-    clip-path: polygon(100% 0, 100% 63%, 82% 100%, 0 100%, 0 0);
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%) 1;
+  font-family: 'a Atmospheric', sans-serif;
+  clip-path: polygon(100% 0, 100% 63%, 82% 100%, 0 100%, 0 0);
 }
 
 .nav-link:hover {
-    background: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  background: linear-gradient(180deg, #CD2A84 0%, #F09C56 113.41%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .nav-link::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #CD2A84;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #CD2A84;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .nav-link:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .navbar-nav {
-    background: black;
-    padding: 1vw 2vw;
-    clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+  background: black;
+  padding: 1vw 2vw;
+  clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
 }
 
 
 /*Custom CSS Register Button */
-.custom-cutout-button{
-    font-family: 'a Atmospheric', sans-serif;
-    --background-color: black;
+.custom-cutout-button {
+  font-family: 'a Atmospheric', sans-serif;
+  --background-color: black;
   --border-color: linear-gradient(to bottom right, #CD2A84 0%, #F09C56 113.41%);
   --border-width: 0.25em;
   --edge-size: 0.5em;
@@ -67,68 +67,55 @@
   isolation: isolate;
   display: inline-grid;
   place-content: center;
-  clip-path: polygon(
-    0% 0%,
-    100% 0,
-    100% calc(100% - var(--edge-size)),
-    calc(100% - var(--edge-size)) 100%,
-    0 100%,
-    0% var(--edge-size)
-  );
+  clip-path: polygon(0% 0%,
+      100% 0,
+      100% calc(100% - var(--edge-size)),
+      calc(100% - var(--edge-size)) 100%,
+      0 100%,
+      0% var(--edge-size));
   transition: color 250ms;
 }
 
 .custom-cutout-button::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--border-color);
-    z-index: -2;
-  }
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--border-color);
+  z-index: -2;
+}
 
 .custom-cutout-button::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--background-color);
-    z-index: -1;
-    clip-path: polygon(
-     
-      var(--border-width) calc(var(--edge-size) + var(--border-width) * -1),
-     
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--background-color);
+  z-index: -1;
+  clip-path: polygon(var(--border-width) calc(var(--edge-size) + var(--border-width) * -1),
+
       calc(var(--edge-size) + var(--border-width) * 0.5) var(--border-width),
-     
+
       calc(100% - var(--border-width)) var(--border-width),
-      
-      calc(100% - var(--border-width))
-        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
-      
-      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
-        calc(100% - var(--border-width)),
-      
-      calc(var(--border-width)) calc(100% - var(--border-width))
-    );
-    transition: clip-path 500ms;
-  }
+
+      calc(100% - var(--border-width)) calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+
+      calc(var(--border-width)) calc(100% - var(--border-width)));
+  transition: clip-path 500ms;
+}
 
 
 .custom-cutout-button:hover {
-    color: white;
-  }
+  color: white;
+}
 
 
 .custom-cutout-button:hover::after {
-  
-    clip-path: polygon(
-      calc(100% - var(--border-width))
-        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+
+  clip-path: polygon(calc(100% - var(--border-width)) calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
       calc(100% - var(--border-width)) var(--border-width),
       calc(100% - var(--border-width)) var(--border-width),
-      calc(100% - var(--border-width))
-        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
-      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
-        calc(100% - var(--border-width)),
-      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
-        calc(100% - var(--border-width))
-    );
-  }
+      calc(100% - var(--border-width)) calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)));
+}

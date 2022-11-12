@@ -6,7 +6,7 @@ function Sponsors () {
   return (
     <Fragment>
       <section id="sponsors">
-        <div className="prizes container-fluid justify-content-center p-5 m-0 row">
+        <div className="sponsors container-fluid justify-content-center p-5 m-0 row">
           <Fade>
             <h1>Sponsors</h1>
           </Fade>
