@@ -35,14 +35,14 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: linear-gradient(90.71deg, #333333 -1.45%, rgba(50, 50, 50, 0) 123.63%);
+    background: linear-gradient(92.51deg, #2A2A2A -0.03%, rgba(72, 72, 72, 0) 117.26%);
     font-weight: bold;
     cursor: pointer;
     /* Icon */
 }
 
 .tab-label:hover {
-    background: linear-gradient(90.71deg, #333333 -1.45%, rgba(50, 50, 50, 0) 123.63%);
+    background: linear-gradient(92.51deg, #2A2A2A -0.03%, rgba(72, 72, 72, 0) 117.26%);
 }
 
 .tab-label::after {
@@ -56,8 +56,9 @@ input {
 .tab-content {
     max-height: 0;
     padding: 0 1em;
-    color: #2c3e50;
-    background: white;
+    color: white;
+    /* background: white; */
+    background: linear-gradient(145.19deg, #373737 0%, rgba(50, 49, 49, 0.58) 103.88%);
     transition: all 0.35s;
 }
 
@@ -66,16 +67,16 @@ input {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: linear-gradient(90.71deg, #333333 -1.45%, rgba(50, 50, 50, 0) 123.63%);
+    background: linear-gradient(92.51deg, #2A2A2A -0.03%, rgba(72, 72, 72, 0) 117.26%);
     cursor: pointer;
 }
 
 .tab-close:hover {
-    background: linear-gradient(90.71deg, #333333 -1.45%, rgba(50, 50, 50, 0) 123.63%);
+    background: linear-gradient(92.51deg, #2A2A2A -0.03%, rgba(72, 72, 72, 0) 117.26%);
 }
 
 input:checked+.tab-label {
-    background: linear-gradient(90.71deg, #333333 -1.45%, rgba(50, 50, 50, 0) 123.63%);
+    background: linear-gradient(92.51deg, #2A2A2A -0.03%, rgba(72, 72, 72, 0) 117.26%);
 }
 
 input:checked+.tab-label::after {
