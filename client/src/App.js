@@ -10,7 +10,9 @@ import About from './Components/About/About';
 import Prizes from './Components/Prizes/Prizes';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollButton from './Components/ScrollButton/Scrollbutton';
+import Modal from 'react-modal/lib/components/Modal';
 
+Modal.setAppElement ('#root');
 function App () {
   return (
     <Fragment>
