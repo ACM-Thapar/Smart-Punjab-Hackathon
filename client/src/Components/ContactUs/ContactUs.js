@@ -1,7 +1,6 @@
 import {React, Fragment} from 'react';
 import './ContactUs.css';
 import Fade from 'react-reveal/Fade';
-import {Bounce} from 'react-reveal';
 
 function ContactUs () {
   return (
@@ -9,18 +8,18 @@ function ContactUs () {
       <section id="contactUs">
         <div className="contactUs container-fluid justify-content-center p-5 m-0 row">
           <div className="animate col-6">
-            <Bounce left>
+            <Fade>
               <div>if you still have any</div>
-            </Bounce>
-            <Bounce right>
+            </Fade>
+            <Fade>
               <div>if you still have any</div>
-            </Bounce>
-            <Bounce left>
+            </Fade>
+            <Fade>
               <div>if you still have any</div>
-            </Bounce>
-            <Bounce right>
+            </Fade>
+            <Fade>
               <div>if you still have any query</div>
-            </Bounce>
+            </Fade>
           </div>
           <Fade>
             <h1>Contact Us</h1>

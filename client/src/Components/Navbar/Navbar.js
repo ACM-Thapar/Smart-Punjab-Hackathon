@@ -37,7 +37,15 @@ function Navbar () {
               </li>
 
               <li className="nav-item">
-                <a href="/" style={{textDecoration:'none',color:'white',marginTop:'3px'}} className="custom-cutout-button">
+                <a
+                  href="/"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'white',
+                    marginTop: '3px',
+                  }}
+                  className="custom-cutout-button"
+                >
                   Register
                 </a>
               </li>
@@ -46,7 +54,7 @@ function Navbar () {
                 <a href="#prizes" class="nav-link px-2 mx-2">Prizes</a>
               </li>
               <li class="nav-item line-hover">
-                <a href="#rules" class="nav-link px-2 mx-2">Rules</a>
+                <a href="#faqs" class="nav-link px-2 mx-2">FAQs</a>
               </li>
               <li class="nav-item line-hover">
                 <a href="#contactUs" class="nav-link px-2 mx-2">Contact Us</a>

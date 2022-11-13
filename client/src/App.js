@@ -4,9 +4,8 @@ import './App.css';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import Timeline from './Components/Timeline/Timeline';
 import Tracks from './Components/Tracks/Tracks';
-import Guidelines from './Components/Guidelines/Guidelines';
 import ContactUs from './Components/ContactUs/ContactUs';
-import Faqs from './Components/Faqs/Faqs';
+import Faqs from './Components/Faqs/faqs';
 import About from './Components/About/About';
 import Prizes from './Components/Prizes/Prizes';
 import Sponsors from './Components/Sponsors/Sponsors';
@@ -41,7 +40,6 @@ function App () {
       <Timeline />
       <Tracks />
       <Prizes />
-      <Guidelines />
       <Sponsors />
       <Faqs />
       <ContactUs />
