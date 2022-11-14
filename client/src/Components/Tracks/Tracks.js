@@ -76,8 +76,9 @@ function Tracks () {
                   className="img-fluid"
                   draggable="false"
                 />
-                <h3 className="p-3">Open Innovation</h3>
+                <h2 className="p-3">Open Innovation</h2>
               </div>
+             
               <ModalComponent
                 isOpen={modal3IsOpen}
                 onRequestClose={() => setmodal3IsOpen (false)}

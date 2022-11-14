@@ -57,7 +57,7 @@ function Navbar () {
                 <a href="#faqs" class="nav-link px-2 mx-2">FAQs</a>
               </li>
               <li class="nav-item line-hover">
-                <a href="#contactUs" class="nav-link px-2 mx-2">Contact Us</a>
+                <a href="#contactUs" id="contactus" class="nav-link px-2 mx-2">Contact Us</a>
               </li>
             </ul>
           </div>

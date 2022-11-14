@@ -119,3 +119,8 @@
       calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
       calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)));
 }
+@media(max-width: 990px){
+  #contactus{
+    margin: 1%;
+  }
+}
