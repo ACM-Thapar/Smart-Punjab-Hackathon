@@ -9,8 +9,24 @@ function About () {
         <div className="about container-fluid justify-content-center p-5 m-0 row">
           <Fade>
             <h1>About</h1>
-            <p className ="col-8">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta porro excepturi, laborum qui minus dolor error facilis deleniti, velit eaque consequatur! Pariatur repellat ad quae suscipit cumque a quis error unde neque nihil earum sequi sint similique, tempora officia at nam. Accusamus reiciendis ut sequi quidem vitae reprehenderit optio eos voluptatibus iure impedit minima dolores eveniet sunt quia alias ratione nam veritatis rerum, saepe voluptates ullam labore officia iusto!
+            <div className="box"> </div>
+            <p className="col-8">
+              The SmartPunjab Hackathon is a platform
+              for youth to ideate,
+              design, execute and lead social initiatives that address
+              issues in the community through collaborative leadership.
+              <br /><br />
+              Through this 24 - hour hackathon, students will be guided
+              through an amazing learning experience and provided with
+              resources and community support, including mentorship
+              and prizes to launch a social change project in the
+              community, along with stories that celebrate their journey
+              and impact.
+              <br /><br />
+              There will be 60 teams who will be participating
+              for the prize
+              with one screening round, two checkpoints and the final
+              judging round.
             </p>
           </Fade>
         </div>
