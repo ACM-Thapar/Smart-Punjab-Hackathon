@@ -1,5 +1,6 @@
 import {React, Fragment} from 'react';
 import './Navbar.css';
+import {HiBars3BottomRight} from 'react-icons/hi2';
 
 function Navbar () {
   return (
@@ -9,7 +10,7 @@ function Navbar () {
 
           {/* <!-- toggle button for mobile nav --> */}
           <button
-            class="navbar-toggler bg-light"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#main-nav"
@@ -17,9 +18,8 @@ function Navbar () {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon" />
+            <HiBars3BottomRight className="navbar-toggler-icon text-white" />
           </button>
-
           {/* <!-- navbar Links --> */}
           <div
             class="collapse navbar-collapse justify-content-center align-center"
@@ -36,7 +36,7 @@ function Navbar () {
                 <a href="#tracks" class="nav-link px-2 mx-2">Tracks</a>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item d-none d-md-inline">
                 <a
                   href="/"
                   style={{
@@ -50,6 +50,10 @@ function Navbar () {
                 </a>
               </li>
 
+              <li className="nav-item d-md-none">
+                <a href="/" className="nav-link px-2 mx-2">Register</a>
+              </li>
+
               <li class="nav-item line-hover">
                 <a href="#prizes" class="nav-link px-2 mx-2">Prizes</a>
               </li>
@@ -57,7 +61,7 @@ function Navbar () {
                 <a href="#faqs" class="nav-link px-2 mx-2">FAQs</a>
               </li>
               <li class="nav-item line-hover">
-                <a href="#contactUs" class="nav-link px-2 mx-2">Contact Us</a>
+                <a href="#contactUs" id="contactus" class="nav-link px-2 mx-2">Contact Us</a>
               </li>
             </ul>
           </div>
