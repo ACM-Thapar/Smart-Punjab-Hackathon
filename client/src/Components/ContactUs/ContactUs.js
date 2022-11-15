@@ -7,7 +7,7 @@ function ContactUs () {
     <Fragment>
       <section id="contactUs">
         <div className="contactUs container-fluid justify-content-center p-5 m-0 row">
-          <div className="animate col-6">
+          {/* <div className="animate col-6">
             <Fade>
               <div>if you still have any</div>
             </Fade>
@@ -20,7 +20,7 @@ function ContactUs () {
             <Fade>
               <div>if you still have any query</div>
             </Fade>
-          </div>
+          </div> */}
           <Fade>
             <h1>Contact Us</h1>
           </Fade>

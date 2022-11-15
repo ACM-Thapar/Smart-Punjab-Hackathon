@@ -119,8 +119,15 @@
       calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
       calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)));
 }
-@media(max-width: 990px){
-  #contactus{
-    margin: 1%;
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    background: #1e1e1e;
+    padding: 0;
+    clip-path: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
   }
 }
