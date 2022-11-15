@@ -42,8 +42,31 @@ function Tracks () {
                   isOpen={modal1IsOpen}
                   onRequestClose={() => setmodal1IsOpen (false)}
                 >
-                  <h2>Modal 1</h2>
+                  <h2>Automation</h2>
                   <p>Modal content</p>
+                  <div id="tabstabs" className="tabs">
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd11" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <div id="tabtab-content" className="tab-content">
+                     Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd12" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <div id="tabtab-content" className="tab-content">
+                      Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd13" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
+                    <div id="tabtab-content"  className="tab-content">
+                     Coming Soon!
+                    </div>
+                  </div>
+                </div>
                   <button onClick={() => setmodal1IsOpen (false)}>Close</button>
                 </ModalComponent>
 
@@ -62,8 +85,31 @@ function Tracks () {
                   isOpen={modal2IsOpen}
                   onRequestClose={() => setmodal2IsOpen (false)}
                 >
-                  <h2>Modal 2</h2>
+                  <h2>Mad-Tech</h2>
                   <p>Modal content</p>
+                  <div id="tabstabs" className="tabs">
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd11" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <div id="tabtab-content" className="tab-content">
+                     Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd12" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <div id="tabtab-content" className="tab-content">
+                      Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd13" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
+                    <div id="tabtab-content"  className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                </div>
                   <button onClick={() => setmodal2IsOpen (false)}>Close</button>
                 </ModalComponent>
               </Bounce>
@@ -83,8 +129,31 @@ function Tracks () {
                 isOpen={modal3IsOpen}
                 onRequestClose={() => setmodal3IsOpen (false)}
               >
-                <h2>Modal 3</h2>
+                <h2>Open Innovation</h2>
                 <p>Modal content</p>
+                <div id="tabstabs" className="tabs">
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd11" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <div id="tabtab-content" className="tab-content">
+                     Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd12" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <div id="tabtab-content" className="tab-content">
+                   Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd13" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
+                    <div id="tabtab-content"  className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                </div>
                 <button onClick={() => setmodal3IsOpen (false)}>Close</button>
               </ModalComponent>
               <Bounce right>
@@ -103,8 +172,31 @@ function Tracks () {
                   isOpen={modal4IsOpen}
                   onRequestClose={() => setmodal4IsOpen (false)}
                 >
-                  <h2>Modal 4</h2>
+                  <h2>Agri-Tech</h2>
                   <p>Modal content</p>
+                  <div id="tabstabs" className="tabs">
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd11" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <div id="tabtab-content" className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd12" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <div id="tabtab-content" className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd13" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
+                    <div id="tabtab-content"  className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                </div>
                   <button onClick={() => setmodal4IsOpen (false)}>Close</button>
                 </ModalComponent>
                 <div id="item-4" onClick={() => setmodal5IsOpen (true)}>
@@ -120,8 +212,31 @@ function Tracks () {
                   isOpen={modal5IsOpen}
                   onRequestClose={() => setmodal5IsOpen (false)}
                 >
-                  <h2>Modal 5</h2>
+                  <h2>Smart Cities</h2>
                   <p>Modal content</p>
+                  <div id="tabstabs" className="tabs">
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd11" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <div id="tabtab-content" className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd12" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <div id="tabtab-content" className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                  <div id="tabtab" className="tab">
+                    <input type="radio" id="rd13" name="rd" />
+                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
+                    <div id="tabtab-content"  className="tab-content">
+                    Coming Soon!
+                    </div>
+                  </div>
+                </div>
                   <button onClick={() => setmodal5IsOpen (false)}>Close</button>
                 </ModalComponent>
               </Bounce>
