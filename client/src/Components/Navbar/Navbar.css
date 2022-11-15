@@ -125,6 +125,11 @@
     background: #1e1e1e;
     padding: 0;
     clip-path: none;
+    width: 40vw;
+    padding: 1em;
+    position: absolute;
+    top: 10vh;
+    z-index: 99;
   }
 
   .navbar-toggler:focus {

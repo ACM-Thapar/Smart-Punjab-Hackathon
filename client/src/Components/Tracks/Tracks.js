@@ -45,28 +45,46 @@ function Tracks () {
                   <h2>Automation</h2>
                   <p>Modal content</p>
                   <div id="tabstabs" className="tabs">
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd11" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
-                    <div id="tabtab-content" className="tab-content">
-                     Coming Soon!
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd11" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd11"
+                      >
+                        Problem Statement 1
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd12" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd12"
+                      >
+                        Problem Statement 2
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd13" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd13"
+                      >
+                        Problem Statement 3
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
                     </div>
                   </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd12" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
-                    <div id="tabtab-content" className="tab-content">
-                      Coming Soon!
-                    </div>
-                  </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd13" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
-                    <div id="tabtab-content"  className="tab-content">
-                     Coming Soon!
-                    </div>
-                  </div>
-                </div>
                   <button onClick={() => setmodal1IsOpen (false)}>Close</button>
                 </ModalComponent>
 
@@ -88,28 +106,46 @@ function Tracks () {
                   <h2>Mad-Tech</h2>
                   <p>Modal content</p>
                   <div id="tabstabs" className="tabs">
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd11" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
-                    <div id="tabtab-content" className="tab-content">
-                     Coming Soon!
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd11" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd11"
+                      >
+                        Problem Statement 1
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd12" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd12"
+                      >
+                        Problem Statement 2
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd13" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd13"
+                      >
+                        Problem Statement 3
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
                     </div>
                   </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd12" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
-                    <div id="tabtab-content" className="tab-content">
-                      Coming Soon!
-                    </div>
-                  </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd13" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
-                    <div id="tabtab-content"  className="tab-content">
-                    Coming Soon!
-                    </div>
-                  </div>
-                </div>
                   <button onClick={() => setmodal2IsOpen (false)}>Close</button>
                 </ModalComponent>
               </Bounce>
@@ -122,9 +158,9 @@ function Tracks () {
                   className="img-fluid"
                   draggable="false"
                 />
-                <h2 className="p-3">Open Innovation</h2>
+                <h3 className="p-3">Open Innovation</h3>
               </div>
-             
+
               <ModalComponent
                 isOpen={modal3IsOpen}
                 onRequestClose={() => setmodal3IsOpen (false)}
@@ -134,23 +170,41 @@ function Tracks () {
                 <div id="tabstabs" className="tabs">
                   <div id="tabtab" className="tab">
                     <input type="radio" id="rd11" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
+                    <label
+                      id="tabtab-label"
+                      className="tab-label"
+                      htmlFor="rd11"
+                    >
+                      Problem Statement 1
+                    </label>
                     <div id="tabtab-content" className="tab-content">
-                     Coming Soon!
+                      Coming Soon!
                     </div>
                   </div>
                   <div id="tabtab" className="tab">
                     <input type="radio" id="rd12" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
+                    <label
+                      id="tabtab-label"
+                      className="tab-label"
+                      htmlFor="rd12"
+                    >
+                      Problem Statement 2
+                    </label>
                     <div id="tabtab-content" className="tab-content">
-                   Coming Soon!
+                      Coming Soon!
                     </div>
                   </div>
                   <div id="tabtab" className="tab">
                     <input type="radio" id="rd13" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
-                    <div id="tabtab-content"  className="tab-content">
-                    Coming Soon!
+                    <label
+                      id="tabtab-label"
+                      className="tab-label"
+                      htmlFor="rd13"
+                    >
+                      Problem Statement 3
+                    </label>
+                    <div id="tabtab-content" className="tab-content">
+                      Coming Soon!
                     </div>
                   </div>
                 </div>
@@ -175,28 +229,46 @@ function Tracks () {
                   <h2>Agri-Tech</h2>
                   <p>Modal content</p>
                   <div id="tabstabs" className="tabs">
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd11" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
-                    <div id="tabtab-content" className="tab-content">
-                    Coming Soon!
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd11" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd11"
+                      >
+                        Problem Statement 1
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd12" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd12"
+                      >
+                        Problem Statement 2
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd13" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd13"
+                      >
+                        Problem Statement 3
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
                     </div>
                   </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd12" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
-                    <div id="tabtab-content" className="tab-content">
-                    Coming Soon!
-                    </div>
-                  </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd13" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
-                    <div id="tabtab-content"  className="tab-content">
-                    Coming Soon!
-                    </div>
-                  </div>
-                </div>
                   <button onClick={() => setmodal4IsOpen (false)}>Close</button>
                 </ModalComponent>
                 <div id="item-4" onClick={() => setmodal5IsOpen (true)}>
@@ -215,28 +287,46 @@ function Tracks () {
                   <h2>Smart Cities</h2>
                   <p>Modal content</p>
                   <div id="tabstabs" className="tabs">
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd11" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd11">Problem Statement 1</label>
-                    <div id="tabtab-content" className="tab-content">
-                    Coming Soon!
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd11" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd11"
+                      >
+                        Problem Statement 1
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd12" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd12"
+                      >
+                        Problem Statement 2
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
+                    </div>
+                    <div id="tabtab" className="tab">
+                      <input type="radio" id="rd13" name="rd" />
+                      <label
+                        id="tabtab-label"
+                        className="tab-label"
+                        htmlFor="rd13"
+                      >
+                        Problem Statement 3
+                      </label>
+                      <div id="tabtab-content" className="tab-content">
+                        Coming Soon!
+                      </div>
                     </div>
                   </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd12" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd12">Problem Statement 2</label>
-                    <div id="tabtab-content" className="tab-content">
-                    Coming Soon!
-                    </div>
-                  </div>
-                  <div id="tabtab" className="tab">
-                    <input type="radio" id="rd13" name="rd" />
-                    <label id="tabtab-label" className="tab-label" htmlFor="rd13">Problem Statement 3</label>
-                    <div id="tabtab-content"  className="tab-content">
-                    Coming Soon!
-                    </div>
-                  </div>
-                </div>
                   <button onClick={() => setmodal5IsOpen (false)}>Close</button>
                 </ModalComponent>
               </Bounce>

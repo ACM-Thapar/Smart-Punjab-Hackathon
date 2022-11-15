@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaArrowCircleUp} from 'react-icons/fa';
+import {IoIosArrowDropupCircle} from 'react-icons/io';
 import {Button} from './Styles';
 import './Scrollbutton.css';
 
@@ -26,7 +26,8 @@ const ScrollButton = () => {
 
   return (
     <Button className="scrollButton">
-      <FaArrowCircleUp
+      <IoIosArrowDropupCircle
+        className="icon-up"
         onClick={scrollToTop}
         style={{display: visible ? 'inline' : 'none'}}
       />
