@@ -2,7 +2,7 @@
     overflow: hidden;
 }
 .PrizeBox {
-    display: grid;
+    display: flex;
     height: 100vh;
     width: 100vw;
 }
@@ -12,17 +12,16 @@
     background: linear-gradient(145.19deg, #373737 0%, rgba(50, 49, 49, 0.58) 103.88%);
     color: white !important;
     font-family: 'Poppins';
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .PrizeBox span{
     text-align: center;
     
 }
-.prizebox {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .Prize{
     display: flex;
     flex-direction: column;
@@ -37,19 +36,25 @@
 }
 #firstprize{
     position:relative !important;
-    top:50px !important;
+    top:-100px !important;
+    left:379px;
     margin:auto;
 }
 #secondprize{
     position:relative !important;
-    left:-400px !important;
+    left:-450px !important;
     top:-50px !important;
     margin:auto;
 }
 #thirdprize{
     position:relative !important;
-    left:400px !important;
-    top:-240px;
+    left:50px !important;
+    top:-50px;
     margin:auto;
 }
 
+@media (max-width:768px){
+.prizes h1{
+    font-size:1.5rem !important;
+}
+}

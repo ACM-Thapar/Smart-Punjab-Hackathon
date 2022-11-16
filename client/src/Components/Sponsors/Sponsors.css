@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .sponsors h1 {
+        font-size: 1.5rem !important;
+        margin: auto;
+    }
+}

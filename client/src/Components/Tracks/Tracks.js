@@ -21,7 +21,7 @@ function Tracks () {
         <div className="tracks container-fluid p-5 m-0 row justify-content-center">
           <Fade>
             <h1 className="m-0 col-10">Tracks</h1>
-            <span className>
+            <span id="clickon">
               Click on the tracks to know the problem statements
             </span>
             <div className="trackBox col-11 p-5 mb-5">

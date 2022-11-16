@@ -5,6 +5,9 @@ import fb from '../../Assets/fb.png';
 import insta from '../../Assets/insta.png';
 import discord from '../../Assets/discord.png';
 import youtube from '../../Assets/youtube.png';
+import Union from '../../Assets/Union.png';
+import Bounce from 'react-reveal/Bounce';
+
 
 function ContactUs() {
     return (
@@ -12,9 +15,13 @@ function ContactUs() {
             <section id="contactUs">
                 <div className="contactUs container-fluid justify-content-center p-5 m-0 row">
                     <Fade>
-                        <h1>Contact Us</h1>
-                        <div className="col-10 row justify-content-center m-0 p-0">
-                            <div className="contact-box">
+                        <h1 className="mb-4">Contact Us</h1>
+                        <div className=" mainpart col-10 row justify-content-space evenly p-0 m-0">
+                            <Bounce left>
+                            <img src={Union} alt="union" className=" union col-9 col-md-5" />
+                            </Bounce>
+                            <Bounce right>
+                            <div className="contact-box col-10 col-md-5">
                                 <div className="contact">
                                     <span>Samik Malhotra</span>
                                     <span>✉️ smalhotra2_be21@thapar.edu</span>
@@ -44,7 +51,9 @@ function ContactUs() {
                                   <span>📍Venue</span>
                                   </div>
                                 </div>
+                                
                             </div>
+                            </Bounce>
                         </div>
                     </Fade>
                 </div>

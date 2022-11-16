@@ -1,12 +1,18 @@
+.contactUs{
+    overflow: hidden;
+}
 .contact-box{
     clip-path: polygon(0 0, 82% 0, 100% 19%, 100% 100%, 19% 100%, 0 82%);
     background: linear-gradient(180deg, #414141 0%, #232323 100%);
-    width: 25vw;
+    /*width: 25vw;
+    height: 60vh;*/
     color:white;
     font-family: 'Poppins';
+    text-align: center;
     display: flex;
     flex-direction:column;
     padding:1rem;
+    justify-content: space-between;
 }
 .contact{
     display: flex;
@@ -16,7 +22,8 @@
 .socials a img{
     height: 3.5rem !important;
     width:auto;
-    margin: 10px;
+    margin: 15px;
+
 }
 .venue{
     color:white;
@@ -28,3 +35,40 @@
 #idk{
     margin:auto;
 }
+.union{
+    margin:auto;    
+}
+
+@media (max-width:768px){
+    .mainpart{
+        justify-content:space-evenly !important;
+    
+    }
+    .contactUs h1{
+        font-size: 1.5rem !important;
+        margin:auto;
+    }
+    .contact-box{
+        clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%) !important;   
+        font-size:0.5rem;
+        padding:0rem;
+        margin:0rem !important;
+        height: 36vh;
+        width:36vw;
+    }
+    .socials a img{
+        height: 2rem !important;
+        width:auto;
+        margin:auto;
+        padding:2px;
+        justify-content: center; 
+    }
+    .union{
+        height:20vh;
+        width:auto;
+       
+    }
+} 
+
+
+    

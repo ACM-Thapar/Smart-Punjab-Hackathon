@@ -303,4 +303,10 @@
     .trackBox div h3 {
         font-size: 0.9em !important;
     }
+    .tracks h1{
+        font-size: 1.5rem !important;
+    }
+    #clickon{
+        font-size: 0.75rem !important;
+    }
 }

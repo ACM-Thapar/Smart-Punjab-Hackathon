@@ -2,3 +2,9 @@
     width: 80vw;
     height: auto;
 }
+@media (max-width: 768px) {
+    .timeline h1 {
+        font-size: 1.5rem !important;
+        margin: auto;
+    }
+}
