@@ -3,6 +3,7 @@ import Fade from 'react-reveal';
 import './LandingPage.css';
 import Mainbg from '../../Assets/MainBg.png';
 import Navbar from '../../Components/Navbar/Navbar';
+import MainBgSmol from './../../Assets/MainBgSmol.png';
 
 function LandingPage () {
   return (
@@ -11,7 +12,12 @@ function LandingPage () {
         <Fade top>
           <Navbar className="navbar" />
         </Fade>
-        <img src={Mainbg} alt="" className="img-fluid" />
+        <img
+          src={Mainbg}
+          alt="Background"
+          className="img-fluid d-none d-md-inline"
+        />
+        <img src={MainBgSmol} className="d-md-none" alt="BackGround" />
         <Fade bottom>
           <h1>SMART PUNJAB HACKATHON</h1>
         </Fade>
@@ -19,6 +25,5 @@ function LandingPage () {
     </Fragment>
   );
 }
-
 
 export default LandingPage;

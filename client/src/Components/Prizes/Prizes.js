@@ -1,19 +1,19 @@
-import { React, Fragment } from 'react';
+import {React, Fragment} from 'react';
 import Fade from 'react-reveal';
 import './Prizes.css';
-import { Bounce } from 'react-reveal';
+import {Bounce} from 'react-reveal';
 import first from '../../Assets/first.png';
 import second from '../../Assets/second.png';
 import third from '../../Assets/third.png';
 
-function Prizes() {
-    return (
-        <Fragment>
-            <section id="prizes">
-                <div className="prizes container-fluid justify-content-center p-5 m-0 row">
-                    <Fade>
-                        <h1>Prizes</h1>
-                        <div
+function Prizes () {
+  return (
+    <Fragment>
+      <section id="prizes">
+        <div className="prizes container-fluid justify-content-center p-5 m-0 row">
+          <Fade>
+            <h1>Prizes</h1>
+            {/* <div
                             id="PrizeBox"
                             className="PrizeBox col-11 p-5 row justify-content-center"
                         >
@@ -51,12 +51,12 @@ function Prizes() {
                                 </div>
                                 
                             </Bounce>
-                        </div>
-                    </Fade>
-                </div>
-            </section>
-        </Fragment>
-    );
+                        </div> */}
+          </Fade>
+        </div>
+      </section>
+    </Fragment>
+  );
 }
 
 export default Prizes;

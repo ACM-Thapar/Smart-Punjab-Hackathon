@@ -10,7 +10,7 @@ function About () {
           <Fade>
             <h1>About</h1>
             <div className="box"> </div>
-            <p className="col-8" id="para">
+            <p className="col-12 col-md-8" id="para">
               The SmartPunjab Hackathon is a platform
               for youth to ideate,
               design, execute and lead social initiatives that address

@@ -97,9 +97,9 @@
 
 .ReactModal__Content,
 .ReactModal__Content--after-open {
-    background: rgb(230, 236, 218) !important;
+    background: linear-gradient(180deg, #171717 0%, rgba(53, 50, 50, 0.76) 100%) !important;
     opacity: 1 !important;
-    color: rgb(0, 0, 0) !important;
+    color: white;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -113,7 +113,7 @@
     width: 65vw;
     /*border-image: linear-gradient(#f6b73c, #4d9f0c) 30 !important;*/
     border-image: linear-gradient(90.36deg, #9A2381 0.3%, #E67067 99.69%) 1 !important;
-    border-width: 10px !important;
+    border-width: 6px !important;
     border-style: solid !important;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
 }
@@ -292,6 +292,12 @@
 }
 
 @media only screen and (max-width: 550px) {
+
+    .ReactModal__Content,
+    .ReactModal__Content--after-open {
+        width: 80vw;
+    }
+
     .trackBox {
         width: 100vw;
     }
@@ -303,10 +309,21 @@
     .trackBox div h3 {
         font-size: 0.9em !important;
     }
-    .tracks h1{
+
+    .tracks h1 {
         font-size: 1.5rem !important;
     }
-    #clickon{
+
+    #clickon {
         font-size: 0.75rem !important;
+        margin-top: 1rem;
+    }
+
+    #item-0,
+    #item-1,
+    #item-2,
+    #item-3,
+    #item-4 {
+        width: 70vw !important;
     }
 }
