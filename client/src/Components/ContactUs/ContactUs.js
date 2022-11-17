@@ -12,7 +12,7 @@ function ContactUs () {
   return (
     <Fragment>
       <section id="contactUs">
-        <div className="contactUs container-fluid justify-content-center p-5 m-0 row">
+        <div className="contactUs container-fluid justify-content-center p-0 py-5 m-0 row">
           <Fade>
             <h1 className="mb-4">Contact Us</h1>
             <div className=" mainpart col-10 row justify-content-space evenly p-0 m-0">
@@ -37,16 +37,16 @@ function ContactUs () {
                   </div>
                   <div className="socials">
                     <a href="https://www.facebook.com/saturnalia.thapar/">
-                      <img src={fb} />
+                      <img src={fb} alt="Facebook" />
                     </a>
                     <a href="https://www.instagram.com/saturnalia.thapar/?hl=en">
-                      <img src={insta} />
+                      <img src={insta} alt="Instagram" />
                     </a>
                     <a href="https://discord.gg/chbqhsgYNd">
-                      <img src={discord} />
+                      <img src={discord} alt="Discord" />
                     </a>
                     <a href="https://www.youtube.com/channel/UCZv84Q5t_ESkpSnNlt5H0lg">
-                      <img src={youtube} />
+                      <img src={youtube} alt="Youtube" />
                     </a>
                   </div>
                   <div id="idk" className="col-5">

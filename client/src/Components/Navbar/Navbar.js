@@ -1,8 +1,11 @@
-import {React, Fragment} from 'react';
+import {React, Fragment, useState} from 'react';
 import './Navbar.css';
-import {HiBars3BottomRight} from 'react-icons/hi2';
+// import {HiBars3BottomRight} from 'react-icons/hi2';
+import {Sling as Hamburger} from 'hamburger-react';
 
 function Navbar () {
+  const [isOpen, setOpen] = useState (false);
+
   return (
     <Fragment>
       <nav class="navbar navbar-expand-md m-0 p-0">
@@ -18,7 +21,15 @@ function Navbar () {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <HiBars3BottomRight className="navbar-toggler-icon text-white" />
+            {/* <HiBars3BottomRight className="navbar-toggler-icon text-white" /> */}
+            <Hamburger
+              toggled={isOpen}
+              toggle={setOpen}
+              color="#fff"
+              className="navbar-toggler-icon text-white"
+              easing="ease-in"
+              size={25}
+            />
           </button>
           {/* <!-- navbar Links --> */}
           <div
@@ -61,7 +72,9 @@ function Navbar () {
                 <a href="#faqs" class="nav-link px-2 mx-2">FAQs</a>
               </li>
               <li class="nav-item line-hover">
-                <a href="#contactUs" id="contactus" class="nav-link px-2 mx-2">Contact Us</a>
+                <a href="#contactUs" id="contactus" class="nav-link px-2 mx-2">
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
