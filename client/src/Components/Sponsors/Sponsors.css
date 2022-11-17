@@ -1,5 +1,70 @@
+.sponsors {
+    background: #1e1e1e;
+}
+
+.sponsorBox h2 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sponsorBox p {
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.sponsorBox img {
+    height: 8vh;
+    width: auto;
+    margin: 2rem 5rem;
+}
+
+.solana {
+    height: 5vh !important;
+    width: auto !important;
+}
+
+.title,
+.power,
+.associate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+
 @media (max-width: 768px) {
     .sponsors h1 {
         font-size: 1.5rem !important;
+    }
+
+    .sponsorBox img {
+        height: 4vh;
+        width: auto;
+        /* margin: 2rem 5rem; */
+    }
+
+    .solana {
+        height: 2.5vh !important;
+        width: auto !important;
+    }
+
+    .sponsorBox h2 {
+        font-size: 2rem !important;
+    }
+
+    .sponsorBox {}
+
+    .title,
+    .power,
+    .associate {
+        margin: 2vh;
+        text-align: center;
     }
 }
