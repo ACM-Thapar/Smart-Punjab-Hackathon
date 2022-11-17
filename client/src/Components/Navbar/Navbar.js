@@ -62,7 +62,12 @@ function Navbar () {
               </li>
 
               <li className="nav-item d-md-none">
-                <a href="/" className="nav-link px-2 mx-2">Register</a>
+                <a
+                  href="https://smart-punjab-hackathon-tiet.devfolio.co"
+                  className="nav-link px-2 mx-2"
+                >
+                  Register
+                </a>
               </li>
 
               <li class="nav-item line-hover">

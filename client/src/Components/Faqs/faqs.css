@@ -16,7 +16,6 @@ input {
     margin-left: 1em;
 }
 
-/* Accordion styles */
 .tabs {
     border-radius: 8px;
     overflow: hidden;
@@ -89,16 +88,17 @@ input:checked~.tab-content {
 }
 
 @media (max-width:768px) {
-
-    .accordion {
-        width: 100vw !important;
-    }
-
     .faqs h1 {
         font-size: 1.5rem !important;
     }
 
-    .tab-label {
+    .tab-label,
+    .tab-content {
         font-size: 0.8rem !important;
+    }
+
+    .tabs {
+        width: 90vw;
+        margin: auto;
     }
 }

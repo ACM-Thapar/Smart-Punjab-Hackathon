@@ -12,41 +12,41 @@ function ContactUs () {
   return (
     <Fragment>
       <section id="contactUs">
-        <div className="contactUs container-fluid justify-content-center p-0 py-5 m-0 row">
+        <div className="contactUs container-fluid justify-content-center p-5 m-0 row">
           <Fade>
             <h1 className="mb-4">Contact Us</h1>
-            <div className=" mainpart col-10 row justify-content-space evenly p-0 m-0">
+            <div className=" mainpart col-10 row justify-content-between p-0 m-0">
               <Bounce left>
                 <img
                   src={Union}
                   alt="union"
-                  className=" union col-9 col-md-10"
+                  className=" union col-9 col-md-5 my-2 mt-5 mb-md-5"
                 />
               </Bounce>
               <Bounce right>
-                <div className="contact-box col-10 col-md-5">
+                <div className="contact-box col-11 py-2 col-md-5 mb-5 mt-3">
                   <div className="contact">
                     <span>Samik Malhotra</span>
                     <span>✉️ smalhotra2_be21@thapar.edu</span>
                     <span>📞 8920321607</span>
                   </div>
                   <div className="contact">
-                    <span>Rohan</span>
-                    <span>✉️ rohan_be21@thapar.edu</span>
-                    <span> 📞 9305895903 </span>
+                    <span>Rohan Gupta</span>
+                    <span>✉️rgupta6_be20@thapar.edu</span>
+                    <span>📞 8920321607</span>
                   </div>
                   <div className="socials">
                     <a href="https://www.facebook.com/saturnalia.thapar/">
-                      <img src={fb} alt="Facebook" />
+                      <img src={fb} />
                     </a>
                     <a href="https://www.instagram.com/saturnalia.thapar/?hl=en">
-                      <img src={insta} alt="Instagram" />
+                      <img src={insta} />
                     </a>
                     <a href="https://discord.gg/chbqhsgYNd">
-                      <img src={discord} alt="Discord" />
+                      <img src={discord} />
                     </a>
                     <a href="https://www.youtube.com/channel/UCZv84Q5t_ESkpSnNlt5H0lg">
-                      <img src={youtube} alt="Youtube" />
+                      <img src={youtube} />
                     </a>
                   </div>
                   <div id="idk" className="col-5">

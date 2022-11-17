@@ -6,12 +6,12 @@ function Faqs () {
   return (
     <Fragment>
       <section id="faqs">
-        <div className=" faqs container-fluid justify-content-center p-5 m-0 row text-align-center">
+        <div className=" faqs container-fluid justify-content-center py-5 m-0 row text-align-center">
           <Fade>
             <div className="accordion col-11 m-0 p-0 text-align-center">
               <h1 className="mb-5 text-align-center">Faqs</h1>
-              <div className="col">
-                <div className="tabs">
+              <div className="justify-content-center row">
+                <div className="tabs col-12">
                   <div className="tab">
                     <input type="radio" id="rd1" name="rd" />
                     <label className="tab-label" htmlFor="rd1">

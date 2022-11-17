@@ -1,4 +1,4 @@
-import {Fragment} from 'react';
+import {Fragment, useState, useEffect} from 'react';
 import AnimatedCursor from 'react-animated-cursor';
 import './App.css';
 import LandingPage from './Pages/LandingPage/LandingPage';
@@ -11,11 +11,21 @@ import Prizes from './Components/Prizes/Prizes';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollButton from './Components/ScrollButton/Scrollbutton';
 import Modal from 'react-modal/lib/components/Modal';
+import Loader from './Components/Loader/Loader';
 
 Modal.setAppElement ('#root');
 function App () {
+  const [isLoading, setIsLoading] = useState (true);
+  useEffect (() => {
+    setTimeout (() => {
+      setIsLoading (false);
+    }, 5000);
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <Fragment>
+
       <AnimatedCursor
         innerSize={13}
         outerSize={13}
@@ -37,15 +47,19 @@ function App () {
           '.link',
         ]}
       />
-      <LandingPage />
-      <About />
-      <Timeline />
-      <Tracks />
-      <Prizes />
-      <Sponsors />
-      <Faqs />
-      <ContactUs />
-      <ScrollButton />
+      {isLoading
+        ? <Loader />
+        : <div>
+            <LandingPage />
+            <About />
+            <Timeline />
+            <Tracks />
+            <Prizes />
+            <Sponsors />
+            <Faqs />
+            <ContactUs />
+            <ScrollButton />
+          </div>}
     </Fragment>
   );
 }
