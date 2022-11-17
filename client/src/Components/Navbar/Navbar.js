@@ -49,7 +49,7 @@ function Navbar () {
 
               <li className="nav-item d-none d-md-inline">
                 <a
-                  href="/"
+                  href="https://smart-punjab-hackathon-tiet.devfolio.co"
                   style={{
                     textDecoration: 'none',
                     color: 'white',

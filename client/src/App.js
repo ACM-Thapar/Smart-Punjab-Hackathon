@@ -20,7 +20,6 @@ function App () {
     setTimeout (() => {
       setIsLoading (false);
     }, 5000);
-    // eslint-disable-next-line
   }, []);
 
   return (
