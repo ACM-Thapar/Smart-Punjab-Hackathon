@@ -63,7 +63,7 @@ function Navbar () {
 
               <li className="nav-item d-md-none">
                 <a
-                  href="https://smart-punjab-hackathon-tiet.devfolio.co"
+                  href="https://smart-punjab-hack.devfolio.co/"
                   className="nav-link px-2 mx-2"
                 >
                   Register
