@@ -26,14 +26,19 @@ function ContactUs () {
               <Bounce right>
                 <div className="contact-box col-11 py-2 col-md-5 mb-5 mt-3">
                   <div className="contact">
-                    <span>Samik Malhotra</span>
-                    <span>✉️ smalhotra2_be21@thapar.edu</span>
-                    <span>📞 8920321607</span>
+                    <span>Arushi Garg</span>
+                    <span>✉️agarg5_be20@thapar.edu</span>
+                    <span> 📞6283108001</span>
                   </div>
                   <div className="contact">
                     <span>Rohan Gupta</span>
                     <span>✉️rgupta6_be20@thapar.edu</span>
-                    <span>📞 8920321607</span>
+                    <span> 📞93058 95903</span>
+                  </div>
+                  <div className="contact">
+                    <span>Samik Malhotra</span>
+                    <span>✉️smalhotra2_be20@thapar.edu</span>
+                    <span>📞8920321607</span>
                   </div>
                   <div className="socials">
                     <a href="https://www.facebook.com/saturnalia.thapar/">

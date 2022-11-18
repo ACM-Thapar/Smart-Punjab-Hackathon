@@ -20,6 +20,12 @@ function LandingPage () {
         <img src={MainBgSmol} className="d-md-none" alt="BackGround" />
         <Fade bottom>
           <h1>SMART PUNJAB HACKATHON</h1>
+          <div
+            className="apply-button"
+            data-hackathon-slug="smart-punjab-hackathon-tiet"
+            data-button-theme="light"
+            style={{height: 44, width: 312}}
+          />
         </Fade>
       </div>
     </Fragment>

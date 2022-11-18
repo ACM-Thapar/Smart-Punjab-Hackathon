@@ -24,6 +24,15 @@
     margin: 2rem 5rem;
 }
 
+.title-img {
+    width: auto !important;
+    height: 15vh !important;
+}
+
+.step {
+    height: 28vh !important;
+}
+
 .solana {
     height: 5vh !important;
     width: auto !important;
@@ -56,7 +65,7 @@
     }
 
     .sponsorBox h2 {
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
     }
 
     .sponsorBox {}
@@ -66,5 +75,14 @@
     .associate {
         margin: 2vh;
         text-align: center;
+    }
+
+    .title-img {
+        width: auto !important;
+        height: 6vh !important;
+    }
+
+    .step {
+        height: 10vh !important;
     }
 }

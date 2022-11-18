@@ -1,4 +1,5 @@
 import {Fragment, useState, useEffect} from 'react';
+import React from 'react';
 import AnimatedCursor from 'react-animated-cursor';
 import './App.css';
 import LandingPage from './Pages/LandingPage/LandingPage';
@@ -22,13 +23,24 @@ function App () {
     }, 5000);
   }, []);
 
+  React.useEffect (() => {
+    const script = document.createElement ('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild (script);
+    return () => {
+      document.body.removeChild (script);
+    };
+  }, []);
+
   return (
     <Fragment>
 
       <AnimatedCursor
         innerSize={13}
         outerSize={13}
-        color="255, 215, 0"
+        color="51, 96, 255"
         outerAlpha={0.3}
         innerScale={0.7}
         outerScale={4}

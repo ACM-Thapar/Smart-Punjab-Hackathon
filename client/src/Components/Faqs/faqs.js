@@ -36,7 +36,7 @@ function Faqs () {
                       What is the allowed team size and how can I find one ?
                     </label>
                     <div className="tab-content">
-                      The time size can vary from 2-5 participants but we hope you will try actively looking for a team because working in groups is a great skill for developers. Looking for team members? Head over to #team-building channel on our discord server and try your luck!
+                      The time size can vary from 1-5 participants but we hope you will try actively looking for a team because working in groups is a great skill for developers.
                     </div>
                   </div>
                   <div className="tab">
@@ -66,7 +66,7 @@ function Faqs () {
                       If you have any more questions, feel free to reach out to us at
                       {' '}
                       <a href="mailto: acmthaparchapter@thapar.edu">
-                        acmthaparchapter@thapar.edu
+                        saturnalia@thapar.edu
                       </a>
                       {' '}
                       and we will try to respond as quickly as we can.

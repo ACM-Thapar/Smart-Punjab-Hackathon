@@ -6,6 +6,9 @@ import Polygon from './../../Assets/Polygon.png';
 import Filecoin from './../../Assets/Filecoin.png';
 import Replit from './../../Assets/Replit.png';
 import Solana from './../../Assets/Solana.png';
+import IMPunjab from './../../Assets/IMPunjab.png';
+import StartPunjab from './../../Assets/StartPunjab.png';
+import STEP from './../../Assets/STEP.png';
 
 function Sponsors () {
   return (
@@ -18,7 +21,19 @@ function Sponsors () {
 
               <div className="title">
                 <h2>Title Sponsors</h2>
-                <p>To be announced soon</p>
+                <div className="titles">
+                  <img
+                    src={IMPunjab}
+                    alt=""
+                    className="img-fluid IMPunjab title-img"
+                  />
+                  <img
+                    src={StartPunjab}
+                    alt=""
+                    className="img-fluid title-img"
+                  />
+                  <img src={STEP} alt="" className="img-fluid step" />
+                </div>
               </div>
 
               <div className="power">
@@ -26,7 +41,7 @@ function Sponsors () {
                   Power Sponsors
                 </h2>
                 <div className="powers">
-                  <img src={Devfolio} alt="Dvvfolio" className="img-fluid" />
+                  <img src={Devfolio} alt="Devfolio" className="img-fluid" />
                   <img src={Polygon} alt="Polygon" className="img-fluid" />
                 </div>
               </div>
