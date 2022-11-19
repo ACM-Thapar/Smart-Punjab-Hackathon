@@ -44,4 +44,17 @@
     .apply-button {
         margin: 6rem auto;
     }
+
+    .rg-btn {
+        /* transform: translatex(50%) !important; */
+        /* width: auto; */
+        width: 50vw;
+        margin: 2rem auto !important;
+    }
+
+    .landingContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
