@@ -22,8 +22,8 @@ function LandingPage () {
           <h1>SMART PUNJAB HACKATHON</h1>
           <div
             className="apply-button"
-            data-hackathon-slug="smart-punjab-hackathon-tiet"
-            data-button-theme="light"
+            data-hackathon-slug="smart-punjab-hack"
+            data-button-theme="dark"
             style={{height: 44, width: 312}}
           />
         </Fade>
