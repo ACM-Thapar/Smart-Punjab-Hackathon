@@ -50,11 +50,16 @@
         /* width: auto; */
         width: 50vw;
         margin: 2rem auto !important;
+        z-index: 0;
+
     }
 
     .landingContainer {
         display: flex;
         flex-direction: column;
+        /* background: red; */
         justify-content: center;
+        position: absolute;
+        z-index: -1;
     }
 }

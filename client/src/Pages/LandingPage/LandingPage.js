@@ -19,8 +19,8 @@ function LandingPage () {
         />
         <img src={MainBgSmol} className="d-md-none" alt="BackGround" />
         <Fade bottom>
+          <h1>SMART PUNJAB HACKATHON</h1>
           <div className="text-align-center container-fluid landingContainer">
-            <h1>SMART PUNJAB HACKATHON</h1>
             <a
               href="https://smart-punjab-hack.devfolio.co/"
               style={{
