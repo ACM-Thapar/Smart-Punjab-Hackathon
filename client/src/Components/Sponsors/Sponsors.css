@@ -33,9 +33,19 @@
     height: 28vh !important;
 }
 
+.sp {
+    height: 30vh !important;
+}
+
 .solana {
     height: 5vh !important;
     width: auto !important;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title,
@@ -84,5 +94,13 @@
 
     .step {
         height: 10vh !important;
+    }
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 }

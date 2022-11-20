@@ -30,7 +30,7 @@ function Sponsors () {
                   <img
                     src={StartPunjab}
                     alt=""
-                    className="img-fluid title-img"
+                    className="img-fluid title-img sp"
                   />
                   <img src={STEP} alt="" className="img-fluid step" />
                 </div>

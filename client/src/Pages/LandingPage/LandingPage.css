@@ -34,6 +34,7 @@
 
 .apply-button {
     margin: 3rem auto;
+    /* background: red; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,7 +43,8 @@
     }
 
     .apply-button {
-        margin: 6rem auto;
+        margin: 0rem auto;
+        /* background: red !important; */
     }
 
     .rg-btn {
@@ -51,7 +53,6 @@
         width: 50vw;
         margin: 2rem auto !important;
         z-index: 0;
-
     }
 
     .landingContainer {

@@ -33,13 +33,13 @@ function LandingPage () {
             >
               Register
             </a>
+            <div
+              className="apply-button"
+              data-hackathon-slug="smart-punjab-hack"
+              data-button-theme="dark"
+              style={{height: 44, width: 312}}
+            />
           </div>
-          {/* <div
-            className="apply-button"
-            data-hackathon-slug="smart-punjab-hack"
-            data-button-theme="dark"
-            style={{height: 44, width: 312}}
-          /> */}
         </Fade>
       </div>
     </Fragment>
