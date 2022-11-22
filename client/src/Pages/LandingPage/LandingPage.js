@@ -22,7 +22,7 @@ function LandingPage () {
           <h1>SMART PUNJAB HACKATHON</h1>
           <div className="text-align-center container-fluid landingContainer">
             <a
-              href="https://forms.gle/MLH5rzZygiSXmxGr8"
+              href="https://smart-punjab-hack.devfolio.co/"
               style={{
                 textDecoration: 'none',
                 color: 'white',

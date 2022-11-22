@@ -49,7 +49,7 @@ function Navbar () {
 
               <li className="nav-item d-none d-md-inline">
                 <a
-                  href="https://forms.gle/MLH5rzZygiSXmxGr8"
+                  href="https://smart-punjab-hack.devfolio.co/"
                   style={{
                     textDecoration: 'none',
                     color: 'white',
@@ -63,7 +63,7 @@ function Navbar () {
 
               <li className="nav-item d-md-none">
                 <a
-                  href="https://forms.gle/MLH5rzZygiSXmxGr8"
+                  href="https://smart-punjab-hack.devfolio.co/"
                   className="nav-link px-2 mx-2"
                 >
                   Register
