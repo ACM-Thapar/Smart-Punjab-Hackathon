@@ -42,6 +42,11 @@
     width: auto !important;
 }
 
+.verbwire {
+    /* background: white; */
+    filter: invert(100%);
+}
+
 .titles {
     display: flex;
     align-items: center;
@@ -57,6 +62,14 @@
     align-items: center;
     margin: 5vh 0;
 }
+
+.powers,
+.associates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width: 768px) {
     .sponsors h1 {
@@ -102,5 +115,12 @@
         align-items: center;
         justify-content: center;
         margin: 0;
+    }
+
+    .powers,
+    .associates {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

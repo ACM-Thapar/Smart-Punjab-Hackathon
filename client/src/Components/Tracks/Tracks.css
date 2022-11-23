@@ -220,6 +220,11 @@
     background: linear-gradient(92.51deg, #ffffff -0.03%, rgba(255, 255, 255, 1) 117.26%) !important;
 }
 
+.modal-content {
+    background: none;
+    font-family: poppins;
+}
+
 @media only screen and (max-width: 900px) {
     .trackBox {
         display: grid;

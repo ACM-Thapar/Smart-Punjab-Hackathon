@@ -9,6 +9,7 @@ import Solana from './../../Assets/Solana.png';
 import IMPunjab from './../../Assets/IMPunjab.png';
 import StartPunjab from './../../Assets/StartPunjab.png';
 import STEP from './../../Assets/STEP.png';
+import Verbwire from './../../Assets/Verbwire.png';
 
 function Sponsors () {
   return (
@@ -43,6 +44,11 @@ function Sponsors () {
                 <div className="powers">
                   <img src={Devfolio} alt="Devfolio" className="img-fluid" />
                   <img src={Polygon} alt="Polygon" className="img-fluid" />
+                  <img
+                    src={Verbwire}
+                    alt="VerbWire"
+                    className="img-fluid verbwire"
+                  />
                 </div>
               </div>
 
