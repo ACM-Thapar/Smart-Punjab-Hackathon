@@ -169,7 +169,7 @@
     height: 15vh;
 }
 
-#tabtab {
+/* #tabtab {
     width: 100%;
     color: rgb(0, 0, 0) !important;
     overflow: hidden;
@@ -199,10 +199,8 @@
 }
 
 #tabtab-content {
-    /*max-height: 0;*/
     padding: 0 1em;
     color: black !important;
-    /* background: white; */
     background: linear-gradient(145.19deg, #ffffff 0%, rgba(255, 255, 255, 0.58) 103.88%) !important;
     transition: all 0.35s !important;
 }
@@ -218,12 +216,14 @@
 
 #tabtab-close:hover {
     background: linear-gradient(92.51deg, #ffffff -0.03%, rgba(255, 255, 255, 1) 117.26%) !important;
-}
+} */
 
 .modal-content {
     background: none;
     font-family: poppins;
 }
+
+
 
 @media only screen and (max-width: 900px) {
     .trackBox {
