@@ -8,12 +8,12 @@ function Navbar () {
 
   return (
     <Fragment>
-      <nav class="navbar navbar-expand-md m-0 p-0">
-        <div class="container-sm">
+      <nav className="navbar navbar-expand-md m-0 p-0">
+        <div className="container-sm">
 
           {/* <!-- toggle button for mobile nav --> */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#main-nav"
@@ -33,23 +33,23 @@ function Navbar () {
           </button>
           {/* <!-- navbar Links --> */}
           <div
-            class="collapse navbar-collapse justify-content-center align-center"
+            className="collapse navbar-collapse justify-content-center align-center"
             id="main-nav"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item line-hover">
-                <a href="#home" class="nav-link px-2 mx-2">Home</a>
+            <ul className="navbar-nav">
+              <li className="nav-item line-hover">
+                <a href="#home" className="nav-link px-2 mx-2">Home</a>
               </li>
-              <li class="nav-item line-hover">
-                <a href="#timeline" class="nav-link px-2 mx-2">Timeline</a>
+              <li className="nav-item line-hover">
+                <a href="#timeline" className="nav-link px-2 mx-2">Timeline</a>
               </li>
-              <li class="nav-item line-hover">
-                <a href="#tracks" class="nav-link px-2 mx-2">Tracks</a>
+              <li className="nav-item line-hover">
+                <a href="#tracks" className="nav-link px-2 mx-2">Tracks</a>
               </li>
 
               <li className="nav-item d-none d-md-inline">
                 <a
-                  href="https://smart-punjab-hack.devfolio.co/"
+                  href="/"
                   style={{
                     textDecoration: 'none',
                     color: 'white',
@@ -70,14 +70,18 @@ function Navbar () {
                 </a>
               </li>
 
-              <li class="nav-item line-hover">
-                <a href="#prizes" class="nav-link px-2 mx-2">Prizes</a>
+              <li className="nav-item line-hover">
+                <a href="#prizes" className="nav-link px-2 mx-2">Prizes</a>
               </li>
-              <li class="nav-item line-hover">
-                <a href="#faqs" class="nav-link px-2 mx-2">FAQs</a>
+              <li className="nav-item line-hover">
+                <a href="#faqs" className="nav-link px-2 mx-2">FAQs</a>
               </li>
-              <li class="nav-item line-hover">
-                <a href="#contactUs" id="contactus" class="nav-link px-2 mx-2">
+              <li className="nav-item line-hover">
+                <a
+                  href="#contactUs"
+                  id="contactus"
+                  className="nav-link px-2 mx-2"
+                >
                   Contact Us
                 </a>
               </li>

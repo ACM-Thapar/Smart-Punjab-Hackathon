@@ -11,7 +11,7 @@ function About () {
             <h1>About</h1>
             <div className="box"> </div>
             <p className="col-12 col-md-8" id="para">
-              The SmartPunjab Hackathon is a platform
+              The Hack4Sustainability is a platform
               for youth to ideate,
               design, execute and lead social initiatives that address
               issues in the community through collaborative leadership.
